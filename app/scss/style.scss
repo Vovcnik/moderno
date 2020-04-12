@@ -1,13 +1,14 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-.box {
+@import'_vars';
+@import'_global';
+@import'fonts';
+.header__top-inner {
     display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+
+.header__text {
+    margin-left: auto;
+    margin-right: 25px;
 }
