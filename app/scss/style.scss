@@ -11,4 +11,21 @@
 .header__text {
     margin-left: auto;
     margin-right: 25px;
+    span {
+        color: $red;
+    }
+}
+
+.header_btn {
+    padding: 9px;
+    width: 72px;
+    border: radius 4px;
+}
+
+.header_btn-login {
+    background-color: $green;
+}
+
+.header_btn-register {
+    background-color: $red;
 }
