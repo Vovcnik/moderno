@@ -129,49 +129,113 @@
                                     Categories
                                 </div>
                                 <ul class="category__list">
-                                    <li> <a href="#"> WordPress</a> <span>150</span></li>
-                                    <li> <a href="#">Joomla</a> <span>100</span></li>
-                                    <li> <a href="#">PSD</a> <span>50</span></li>
-                                    <li> <a href="#"> Plugins</a> <span>60</span></li>
-                                    <li> <a href="#">Components</a><span>40</span></li>
+                                    <li> <a href="#"> WordPress</a> <span>(150)</span></li>
+                                    <li> <a href="#">Joomla</a> <span>(100)</span></li>
+                                    <li> <a href="#">PSD</a> <span>(50)</span></li>
+                                    <li> <a href="#"> Plugins</a> <span>(60)</span></li>
+                                    <li> <a href="#">Components</a><span>(40)</span></li>
                                 </ul>
                             </div>
                             <div class="price-range aside__item">
                                 <div class="aside__title">
                                     Price-Range.
                                 </div>
+                                <form>
+                                    <input type="text" class="js-range-slider" name="my_range" value="" />
+                                    <button type="submit">Search</button>
+                                </form>
+
                             </div>
 
                             <div class="top-sellers aside__item">
                                 <div class="aside__title">
                                     Top 10 Sellers
                                 </div>
-                                <div class="product__item mix category-Component" data-order=" 8">
-                                    <a class="product__item-img" href="#" style="background-image: url(images/content/product-item.jpg);"></a>
-                                    <div class="product__item-content">
-                                        <div class="product__item-name">
-                                            <a class="product__item-title">
-                                Responsive Mobile APP
-                                </a>
-                                            <a class="product__item-category" href="#">
-                                Site Template
-                                </a>
+                                <div class="aside__product-item">
+                                    <div class="product__item ">
+                                        <a class="product__item-img" href="#" style="background-image: url(images/content/product-item.jpg);"></a>
+                                        <div class="product__item-content">
+                                            <div class="product__item-name">
+                                                <a class="product__item-title" href="#">
+                                            Responsive Mobile APP
+                                            </a>
+                                                <a class="product__item-category" href="#">
+                                            Site Template
+                                            </a>
+                                            </div>
+                                            <div class="product__item-price">
+                                                19$
+                                            </div>
                                         </div>
-                                        <div class="product__item-price">
-                                            19$
+                                        <div class="product__item-info">
+                                            <a class="product__item-author" href="#">
+                                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
+                                                <span>Radiustheme</span>
+                                            </a>
+                                            <div class="product__item-star">
+                                                <div class="rate-star"></div>
+                                                <span class="product__item-starnum">(05)</span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="product__item-info">
-                                        <a class="product__item-author" href="#">
-                                            <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                            <span>Radiustheme</span>
-                                        </a>
-                                        <div class="product__item-star">
-                                            <div class="rate-star"></div>(<span>05</span>)
+                                    <div class="product__item ">
+                                        <a class="product__item-img" href="#" style="background-image: url(images/content/product-item3.jpg);"></a>
+                                        <div class="product__item-content">
+                                            <div class="product__item-name">
+                                                <a class="product__item-title" href="#">
+                                                Resposive APP
+                                </a>
+                                                <a class="product__item-category" href="#">
+                                Site Template
+                                </a>
+                                            </div>
+                                            <div class="product__item-price">
+                                                20$
+                                            </div>
+                                        </div>
+                                        <div class="product__item-info">
+                                            <a class="product__item-author" href="#">
+                                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
+                                                <span>Radiustheme</span>
+                                            </a>
+                                            <div class="product__item-star">
+                                                <div class="rate-star"></div>
+                                                <span class="product__item-starnum">(05)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__item">
+                                        <a class="product__item-img" href="#" style="background-image: url(images/content/product-item2.jpg);"></a>
+                                        <div class="product__item-content">
+                                            <div class="product__item-name">
+                                                <a class="product__item-title" href="#">
+                                                The Post Grid Pro
+                                </a>
+                                                <a class="product__item-category" href="#">
+                                Site Template
+                                </a>
+                                            </div>
+                                            <div class="product__item-price">
+                                                12$
+                                            </div>
+                                        </div>
+                                        <div class="product__item-info">
+                                            <a class="product__item-author" href="#">
+                                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
+                                                <span>Radius</span>
+                                            </a>
+                                            <div class="product__item-star">
+                                                <div class="rate-star"></div>
+                                                <span class="product__item-starnum">(05)</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <a class="top-sellers__link href=" # ">
+
+
+
+
+                                <a class="top-sellers__link" href=" # ">
                                     View All
                                 </a>
                             </div>
@@ -180,22 +244,33 @@
                         </aside>
                         <div class="product-page__content ">
                             <div class="product-page__filter ">
-                                
+                                <div class="product-page__filter-soft">
+                                    <button class="icon-sort-amount-desc"></button> Sort by: New Items <button class="icon-unsorted"></button>
+                                </div>
+                                <div>
+                                    <button class="icon-th-large active"></button>
+                                    <button class="icon-th-list"></button>
+                                </div>
+
                             </div>
                             <div class="product-page__items ">
-                                <div class="product__item mix category-Component " data-order=" 8 ">
-                                    <a class="product__item-img " href="# " style="background-image: url(images/content/product-item1.jpg); "></a>
+                                <div class="product__item">
+                                    <a class="product__item-img " href="# " style="background-image: url(images/content/product-item.jpg); "></a>
                                     <div class="product__item-content ">
                                         <div class="product__item-name ">
                                             <a class="product__item-title ">
-    Responsive Mobile APP
-    </a>
+                                        Responsive Mobile APP
+                                        </a>
                                             <a class="product__item-category " href="# ">
-    Site Template
-    </a>
+                                            Site Template
+                                            </a>
+                                            <div class="product__item-text">
+                                                Pimply dummy text of the printing and typesetting industry.
+                                            </div>
                                         </div>
                                         <div class="product__item-price ">
                                             19$
+                                            <span>Sale ( 14 )</span>
                                         </div>
                                     </div>
                                     <div class="product__item-info ">
@@ -206,20 +281,32 @@
                                         <div class="product__item-star ">
                                             <div class="rate-star "></div>(<span>05</span>)
                                         </div>
+                                        <div class="product__item-list">
+                                            <a class="icon-comment-o" href="#">(<span>10</span>)</a>
+                                            <span class="icon-heart-o">(20)</span>
+                                        </div>
+
                                     </div>
-                                </div> <div class="product__item mix category-Component " data-order=" 8 ">
+                                </div>
+                                <div class="product__item ">
                                     <a class="product__item-img " href="# " style="background-image: url(images/content/product-item2.jpg); "></a>
                                     <div class="product__item-content ">
                                         <div class="product__item-name ">
                                             <a class="product__item-title ">
-    Responsive Mobile APP
-    </a>
+                                    Responsive Mobile APP
+                                    </a>
                                             <a class="product__item-category " href="# ">
-    Site Template
-    </a>
+                                    Site Template
+                                    </a>
+                                            <div class="product__item-text">
+                                                Pimply dummy text of the printing and typesetting industry.
+                                            </div>
                                         </div>
+
                                         <div class="product__item-price ">
                                             19$
+                                            <span>Sale ( 11 )</span>
+
                                         </div>
                                     </div>
                                     <div class="product__item-info ">
@@ -230,21 +317,34 @@
                                         <div class="product__item-star ">
                                             <div class="rate-star "></div>(<span>05</span>)
                                         </div>
+                                        <div class="product__item-list">
+                                            <a class="icon-comment-o" href=" # ">(<span>10</span>)</a>
+                                            <div class="icon-heart-o ">(<span>20</span>)</div>
+                                        </div>
+
+
                                     </div>
-                                </div> <div class="product__item mix category-Component " data-order=" 8 ">
+                                </div>
+                                <div class="product__item ">
                                     <a class="product__item-img " href="# " style="background-image: url(images/content/product-item3.jpg); "></a>
                                     <div class="product__item-content ">
                                         <div class="product__item-name ">
                                             <a class="product__item-title ">
-    Responsive Mobile APP
-    </a>
+                                                    Responsive Mobile APP
+                                                    </a>
                                             <a class="product__item-category " href="# ">
-    Site Template
-    </a>
+                                                    Site Template
+                                                    </a>
+                                            <div class="product__item-text ">
+                                                Pimply dummy text of the printing and typesetting industry.
+                                            </div>
                                         </div>
                                         <div class="product__item-price ">
                                             19$
+                                            <span>Sale ( 05 )</span>
+
                                         </div>
+
                                     </div>
                                     <div class="product__item-info ">
                                         <a class="product__item-author " href="# ">
@@ -254,12 +354,17 @@
                                         <div class="product__item-star ">
                                             <div class="rate-star "></div>(<span>05</span>)
                                         </div>
+                                        <div class="product__item-list ">
+                                            <a class="icon-comment-o " href="# ">(10)</a>
+                                            <span class="icon-heart-o ">(20)</span>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="pagination ">
                                 <ul class="pagination__list ">
-                                    <li><a class= "active " href="# ">1</a></li>
+                                    <li><span class="active " href="# ">1</span></li>
                                     <li><a href="# ">2</a></li>
                                     <li><a href="# ">3</a></li>
                                     <li><a href="# ">4</a></li>
