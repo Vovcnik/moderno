@@ -183,23 +183,15 @@
         }
     }
     
-<<<<<<< HEAD
     .circle__menu {
-=======
-    .basket__menu {
->>>>>>> 291b7b619023796826e4d53327e0116fbe4bb4f4
         position: absolute;
         top: 69px;
     }
     
     .user__box,
-<<<<<<< HEAD
     .basket__box,
     .messeage__box,
     .notification__box {
-=======
-    .basket__box {
->>>>>>> 291b7b619023796826e4d53327e0116fbe4bb4f4
         margin-top: 40px;
         height: 90px;
         position: relative;
@@ -213,17 +205,12 @@
         }
     }
     
-<<<<<<< HEAD
     .circle__menu {
-=======
-    .basket__menu {
->>>>>>> 291b7b619023796826e4d53327e0116fbe4bb4f4
         border-top: 1px solid #e0e0e0;
         top: 62px;
         right: 0;
         height: 0;
         overflow: hidden;
-<<<<<<< HEAD
         transition: all .3s;
     }
     
@@ -249,29 +236,12 @@
 
     
     .circle__item {
-=======
-    }
-    
-    .basket__box {
-        margin-top: 54px;
-        margin-left: 15px;
-        &:hover {
-            .basket__menu {
-                overflow: auto;
-                height: auto;
-            }
-        }
-    }
-    
-    .basket__item {
->>>>>>> 291b7b619023796826e4d53327e0116fbe4bb4f4
         background-color: #fff;
         border: 1px solid #e0e0e0;
         border-top: none;
         display: flex;
         align-items: center;
         display: flex;
-<<<<<<< HEAD
         transition: all .3s;
         padding: 0 23px;
         width: 269px;
@@ -290,22 +260,10 @@
     }
     
     .circle__info-name {
-=======
-        padding: 23px;
-        width: 269px;
-    }
-    
-    .basket__images {
-        margin-right: 15px;
-    }
-    
-    .basket__info-name {
->>>>>>> 291b7b619023796826e4d53327e0116fbe4bb4f4
         @include f500;
         color: $bg;
     }
     
-<<<<<<< HEAD
     .circle__info-thema {
         color: $green;
         font-size: 12px;
@@ -313,27 +271,16 @@
     }
     
     .circle__info-prise {
-=======
-    .basket__info-thema {
-        color: $green;
-        font-size: 12px;
-    }
-    
-    .basket__info-prise {
->>>>>>> 291b7b619023796826e4d53327e0116fbe4bb4f4
         @include f500;
         font-size: 16px;
         color: #000;
     }
-<<<<<<< HEAD
 
     .circle__info-date{
         color:#707070;
         font-size: 10px;
       
     }
-=======
->>>>>>> 291b7b619023796826e4d53327e0116fbe4bb4f4
     
     .basket__summ {
         padding: 16px 17px 12px;
@@ -368,7 +315,6 @@
         margin-left: 6px;
         background-color: $red;
     }
-<<<<<<< HEAD
 
 .notification__menu,
 .messeage__menu{
@@ -388,8 +334,6 @@
 color: $tomate;
 }
 
-=======
->>>>>>> 291b7b619023796826e4d53327e0116fbe4bb4f4
     /* end header */
     /* start search */
     
