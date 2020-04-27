@@ -220,23 +220,19 @@
         margin-top: 54px;
         margin-left: 15px;
         &:hover {
-            .circle__menu{
-                .header__circle::before{
+            .circle__menu {
+                .header__circle::before {
                     color: $bg;
                 }
                 overflow: hidden;
                 height: auto;
             }
-             .circle__item{
-                 padding: 23px 23px;
-                 border-width: 1px;
-
-
-             } 
-        } 
+            .circle__item {
+                padding: 23px 23px;
+                border-width: 1px;
+            }
+        }
     }
-  
-
     
     .circle__item {
         background-color: #fff;
@@ -250,13 +246,12 @@
         transition: all .3s;
         padding: 0 23px;
         width: 269px;
-        &::before{
+        &::before {
             position: absolute;
             top: 27px;
             right: 28px;
             color: #b0bec5;
             font-size: 16px;
-
         }
     }
     
@@ -272,7 +267,6 @@
     .circle__info-thema {
         color: $green;
         font-size: 12px;
-       
     }
     
     .circle__info-prise {
@@ -280,11 +274,10 @@
         font-size: 16px;
         color: #000;
     }
-
-    .circle__info-date{
-        color:#707070;
+    
+    .circle__info-date {
+        color: #707070;
         font-size: 10px;
-      
     }
     
     .basket__summ {
@@ -320,26 +313,23 @@
         margin-left: 6px;
         background-color: $red;
     }
-
-.notification__menu,
-.messeage__menu{
-    .circle__images{
-        margin-right: 20px;
-        height: 48px;
-        width: 48px;
-        border-radius: 50%;
-
+    
+    .notification__menu,
+    .messeage__menu {
+        .circle__images {
+            margin-right: 20px;
+            height: 48px;
+            width: 48px;
+            border-radius: 50%;
+        }
+        .circle__info {
+            line-height: 18px;
+        }
     }
-    .circle__info{
-    line-height: 18px;
-}
-
-}
-.icons-color::before{
-color: $tomate;
-}
-
-
+    
+    .icons-color::before {
+        color: $tomate;
+    }
     /* end header */
     /* start search */
     
