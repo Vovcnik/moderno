@@ -143,6 +143,7 @@
         &__inner {
             display: flex;
             align-items: center;
+           
         }
         &__images {
             margin-right: 15px;
@@ -186,6 +187,7 @@
     .circle__menu {
         position: absolute;
         top: 69px;
+        z-index: 1;
     }
     
     .user__box,
@@ -329,6 +331,10 @@
     
     .icons-color::before {
         color: $tomate;
+    }
+    .header__btn-menu,
+    .header__menu{
+        display: none;
     }
     /* end header */
     /* start search */
@@ -1223,4 +1229,5 @@
         }
     }
     /* end product-page */
-@media
+    
+@import 'media'
