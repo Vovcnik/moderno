@@ -84,6 +84,19 @@
     }
 }
 
+@media( max-width: 540px){
+    .footer__col{
+       min-width: 100%;
+       margin-bottom: 30px;
+    }
+
+    .footer__col-menu{
+        &+&{
+            margin-left: 0px;
+            margin-top: 30px;
+        }
+    }
+}
 
    
 @media( max-width: 520px){
@@ -140,24 +153,14 @@
     .header__top-inner{
         height: 70px;
         background-color: #fff;
+       
     }
     .circle__menu{
         top: 52px;
     }
-}
-@media( max-width: 540px){
-    .footer__col{
-       min-width: 100%;
-       margin-bottom: 30px;
-    }
 
-    .footer__col-menu{
-        &+&{
-            margin-left: 0px;
-            margin-top: 30px;
-        }
 }
-}
+
 @media( max-width: 495px){
     .user__info{
         display: none;
