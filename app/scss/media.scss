@@ -177,13 +177,15 @@
             
         }
        
-        }
+    }
          .basket__box{
             margin-left: 0;
     }
-    .header__btn-register, .header__btn-logout {
+    .header__btn-register, 
+    .header__btn-logout {
         
         margin-left: 20px;
+    }
 }
 
 @media( max-width: 360px){
@@ -210,4 +212,3 @@
     }
 }
 
-}
