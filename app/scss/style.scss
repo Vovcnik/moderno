@@ -2179,8 +2179,75 @@ color: $bg;
         border-radius: 3px;
         background-color: $green;
     }
+}// end profile
+// start upload 
+  
+.upload__inner{
+    background-color: #ffffff;
+    border: 1px solid #707070;
+    margin-bottom: 110px;
+    button{
+        color: #ffffff;
+        background-color: $green ;
+        border: none;
+        padding: 15px 36px;
+        margin-left: 175px;
+        cursor: pointer;
+    }
+
 }
-// end profile
+.upload__inner-title{
+padding: 16px 35px 18px;
+font-size: 24px;
+@include f500;
+color:$bg;
+border: 1px solid #d7d7d7;
+margin-bottom: 40px;
+}
+
+.upload__inner-content{
+    margin-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 50px;
+
+}
+
+.upload-line{
+    margin-bottom: 25px;
+    display: flex;
+    label{
+        min-width: 175px;
+        padding-right: 15px;
+        padding-top: 5px;
+        color: #444;
+        span{
+            color: $green;
+        }
+        &::placeholder{
+            color: #707070 ;
+        }
+    }
+}
+select,
+input,
+textarea{
+    width: 100%;
+    display: block;
+    border: 1px solid #d7d7d7;
+    height: 40px;
+    background-color: #f9f9f9;
+    padding: 0px 18px;
+
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 8px 18px;
+}
+
+// end upload 
+
+
 
   @import'media'
   
