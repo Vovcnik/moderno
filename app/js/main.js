@@ -44,6 +44,7 @@ var id = $(this).attr('data-id');
 	return false;
 });
 
+$('input[type="file"], select').styler();
 
     $('.menu__btn').on('click', function(){
       $('.menu__list').slideToggle();   
